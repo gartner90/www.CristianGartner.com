@@ -1,0 +1,29 @@
+@-moz-document url-prefix() {
+	
+body {
+	margin-top:-16px;
+}
+	#menuprincipal .home span{
+	margin-left:-42px;
+	margin-top:65px;
+}
+#menuprincipal .about span{
+	margin-left:-42px;
+	margin-top:65px;
+}
+#menuprincipal .how span{
+	margin-left:-42px;
+	margin-top:67px;
+}
+#menuprincipal .portfolio span{
+	margin-left:-42px;
+	margin-top:65px;
+}
+#menuprincipal .contact span{
+	margin-left:-42px;
+	margin-top:20px !important;}
+	
+}
+	
+
+}

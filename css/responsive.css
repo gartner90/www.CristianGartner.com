@@ -1,0 +1,952 @@
+@media screen and (min-height:760px){
+
+#footer
+{
+	position:absolute;
+	bottom:0;
+}
+
+#general
+{
+	background-image: url(../images/bg-general.png);
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0px 50px ;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-size: 1120px 100%;
+}
+
+#form-footer
+{
+	margin-top:11px;
+}
+	
+}
+
+
+@media screen and (max-width: 800px){
+
+body {
+   overflow-x: hidden;
+}
+
+#general
+{
+	background-image: url(../images/bg-general.png);
+	width: 614px ;
+	height: 760px;
+	margin: 0 auto 0 auto;
+	padding: 0px 50px ;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-size: 100% 760px !important;
+}
+
+#logo {
+
+	width: 228px;
+	height: 66px;
+	background-size: 99%;
+	margin-top: 12px;
+	margin-left: 96px;
+}
+
+#menuprincipal
+{
+    margin-left: 15px;
+    height: 107px;
+    width: 542px;
+    position: absolute;
+    margin-top: 42px;
+}
+
+#html5 
+{
+	width: 114px;
+	height: 84px;
+	background-size: 100%;
+	margin-top: 150px;
+	margin-left: -57px;
+}
+#html5:hover
+{
+-webkit-transform: translate(30px,0px);
+-moz-transform: translate(30px,0px);
+-o-transform: translate(30px,0px);
+-ms-transform: translate(30px,0px);
+transform: translate(30px,0px);
+}	
+#css3 
+{
+	width: 114px;
+	height: 84px;
+	background-size: 100%;
+	margin-top: 245px;
+	margin-left: -57px;
+}
+#css3:hover
+{
+-webkit-transform: translate(30px,0px);
+-moz-transform: translate(30px,0px);
+-o-transform: translate(30px,0px);
+-ms-transform: translate(30px,0px);
+transform: translate(30px,0px);
+}	
+#jquery
+{
+	width: 114px;
+	height: 84px;
+	background-size: 100%;
+	margin-top: 340px;
+	margin-left: -57px;
+}
+#jquery:hover
+{
+-webkit-transform: translate(30px,0px);
+-moz-transform: translate(30px,0px);
+-o-transform: translate(30px,0px);
+-ms-transform: translate(30px,0px);
+transform: translate(30px,0px);
+}	
+#english 
+{
+margin-left: 606px;
+}
+#english:hover
+{
+-webkit-transform: rotate(-30deg);
+-webkit-transition: -webkit-transform 1s;
+-moz-transform: rotate(-30deg);
+-moz-transition: -moz-transform 1s;
+-o-transform: rotate(-30deg);
+-o-transition: -o-transform 1s;
+-ms-transform: rotate(-30deg);
+-ms-transition: -ms-transform 1s;
+transform: rotate(-30deg);
+transition: transform 1s;
+}	
+#espanol 
+{
+margin-left: 606px;
+}
+#espanol:hover
+{
+-webkit-transform: rotate(-30deg);
+-webkit-transition: -webkit-transform 1s ease-in-out;
+-moz-transform: rotate(-30deg);
+-moz-transition: -moz-transform 1s ease-in-out;
+-o-transform: rotate(-30deg);
+-o-transition: -o-transform 1s ease-in-out;
+-ms-transform: rotate(-30deg);
+-ms-transition: -ms-transform 1s ease-in-out;
+transform: rotate(-30deg);
+transition: transform 1s ease-in-out;
+}
+
+.wrapper {
+width: 84%;
+margin-top: 21px;
+height: 128px;
+}
+
+.shadow {
+margin-top: -82px;
+}
+
+#timeline {
+width: 615px;
+}
+#line-top {
+width: 615px;
+}
+#line {
+width: 615px;
+background-size: 100%;
+height: 28px;
+}
+#line-bottom {
+width: 615px;
+height: 218px;
+}
+#bola1
+{
+	margin-left: -1px;
+}
+#num1
+{
+	font-size: 16pt;
+	margin-left: 24px;
+}
+#bola2
+{
+	margin-left: 60px;
+}
+#num2
+{
+	font-size: 16pt;
+	margin-left: 89px;
+	margin-top: 20px;
+}
+#bola3
+{
+	margin-left: 140px;
+}
+#num3
+{
+	font-size: 16pt;
+	margin-left: 164px;
+}
+#bola4
+{
+	margin-left: 205px;
+}
+#num4
+{
+	font-size: 16pt;
+	margin-left: 233px;
+	margin-top: 20px;
+}
+#bola5
+{
+	margin-left: 289px;
+}
+#num5
+{
+	font-size: 16pt;
+	margin-left: 315px;
+}
+#bola6
+{
+	margin-left: 352px;
+}
+#num6
+{
+	font-size: 16pt;
+	margin-left: 381px;
+	margin-top: 20px;
+}
+#bola7
+{
+	margin-left: 432px;
+}
+#num7
+{
+	font-size: 16pt;
+	margin-left: 456px;
+}
+#bola8
+{
+	margin-left: 496px;
+}
+#num8
+{
+	font-size: 16pt;
+	margin-left: 525px;
+	margin-top: 20px;
+}
+aside
+{
+	margin-top: -84px;
+	margin-left: 153px;
+	margin-bottom: 93px;
+}
+#footer
+{
+	margin-left: -169px;
+	width: 886px;
+}
+#datos
+{
+	padding-left: 118px;
+	margin-top: 16px;
+	font-size: 10pt;
+}
+#form-name {
+margin-left: -132px;
+width: 117px;
+}
+#form-mail {
+margin-left: -132px;
+width: 117px;
+}
+#form-message {
+margin-left: 2px;
+width: 179px;
+}
+#form-submit {
+margin-left: 193px;
+padding: 3px;
+margin-top: 33px;
+}
+#social {
+margin-right: 38px;
+}
+#texto-about {
+font-size: 14pt;
+}
+#me-photo {
+height: 483px;
+width: 163px;
+}
+#empresas {
+height: 85px;
+width: 113%;
+}
+#yell {
+margin-left: 9px;
+}
+#adworks {
+margin-left: 33px;
+}
+#marketing-solutions {
+margin-left: 40px;
+}
+#aya {
+margin-left: 180px;
+margin-top: 14px;
+}
+#pages {
+margin-left: 50px;
+margin-top: 9px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+body {
+   background-color: #fff;
+}
+#general
+{
+	width: 469px !important;
+}
+#menuprincipal {
+margin-left: -143px;
+margin-top: 119px;
+}
+#logo {
+width: 281px;
+height: 88px;
+background-size: 100%;
+margin-top: 29px;
+margin-left: -16px;
+}
+.wrapper {
+margin-top: 128px;
+}
+#html5 {
+width: 93px;
+height: 68px;
+margin-top: 238px;
+margin-left: -48px;
+z-index: 10;
+}
+#css3 {
+width: 93px;
+height: 68px;
+margin-top: 309px;
+margin-left: -48px;
+z-index: 10;
+}
+#jquery {
+width: 93px;
+height: 68px;
+margin-top: 383px;
+margin-left: -48px;
+z-index: 10;
+}
+#timeline {
+width: 493px;
+}
+#line {
+width: 493px;
+height: 23px;
+}
+#line-bottom {
+width: 493px;
+}
+#bola2 {
+margin-left: 42px;
+}
+#num2 {
+margin-left: 71px;
+}
+#bola3 {
+margin-left: 109px;
+}
+#num3 {
+margin-left: 137px;
+}
+#bola5 {
+margin-left: 226px;
+}
+#num5 {
+margin-left: 254px;
+}
+#bola7 {
+margin-left: 342px;
+}
+#num7 {
+margin-left: 369px;
+}
+#bola4 {
+margin-left: 152px;
+}
+#num4 {
+margin-left: 180px;
+}
+#bola6 {
+margin-left: 266px;
+}
+#num6 {
+margin-left: 296px;
+}
+#bola8 {
+margin-left: 383px;
+}
+#num8 {
+margin-left: 410px;
+}
+
+aside {
+margin-bottom: 38px;
+}
+#footer {
+height: 191px;
+background-size: 267%;
+}
+#form-name {
+margin-left: -406px;
+width: 117px;
+margin-top: 77px;
+}
+#form-mail {
+margin-left: -406px;
+width: 117px;
+margin-top: 113px;
+}
+#form-message {
+margin-left: -275px;
+margin-top: 79px;
+}
+#form-submit {
+margin-left: -86px;
+padding: 3px;
+margin-top: 96px;
+}
+#datos {
+padding-left: 255px;
+margin-top: 16px;
+font-size: 10pt;
+}
+#social {
+margin-right: 0px;
+position: absolute;
+float: none;
+margin-left: 535px;
+width: 134px;
+text-align: center;
+margin-top: 8px;
+}
+#english 
+{
+margin-left: 433px;
+width: 40px;
+height: 40px;
+background-size: 100%;
+}
+#espanol 
+{
+margin-left: 433px;
+width: 40px;
+height: 40px;
+background-size: 100%;
+margin-top: 195px;
+}
+#cont-about{
+	margin-top: 97px;
+}
+#cont-about{
+	margin-top: 97px;
+}
+#texto-about {
+font-size: 11pt;
+}
+#me-photo {
+height: 421px;
+width: 144px;
+}
+#empresas {
+height: 86px;
+width: 113%;
+margin-top: 6px;
+}
+#yell {
+margin-left: 42px;
+}
+#adworks {
+margin-left: 59px;
+}
+#marketing-solutions {
+margin-left: 7px;
+margin-top: 12px;
+}
+#aya {
+margin-left: 23px;
+margin-top: 14px;
+}
+#pages {
+margin-left: 26px;
+margin-top: 9px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 482px){
+
+
+body {
+   overflow-x: hidden;
+}
+#general {
+width: 340px !important;
+height: 842px;
+}
+.wrapper {
+margin-top: 228px;
+}
+#menuprincipal {
+margin-left: -222px;
+margin-top: 198px;
+}
+#cg {
+margin-left: 78px;
+margin-top: 13px;
+}
+#logo {
+margin-top: -14px;
+margin-left: 28px;
+}
+.wrapper {
+margin-top: 206px;
+height: 79px;
+width: 243px;
+}
+.sb-slider{
+	height: 107px;
+}
+.nav-arrows a {
+width: 32px;
+height: 32px;
+background-size: 187%;
+}
+#timeline {
+width: 355px;
+}
+#line-top {
+width: 355px;
+}
+#line {
+width: 355px;
+height: 15px;
+}
+#line-bottom {
+width: 355px;
+}
+#bola1 {
+margin-left: -20px;
+}
+#num1 {
+margin-left: 8px;
+}
+#bola3 {
+margin-left: 84px;
+}
+#num3 {
+margin-left: 112px;
+}
+#bola5 {
+margin-left: 181px;
+}
+#num5 {
+margin-left: 208px;
+}
+#bola7 {
+margin-left: 271px;
+}
+#num7 {
+margin-left: 296px;
+}
+#bola2 {
+margin-left: 40px;
+}
+#num2 {
+margin-left: 70px;
+}
+#bola4 {
+margin-left: 131px;
+}
+#num4 {
+margin-left: 160px;
+}
+#bola6 {
+margin-left: 217px;
+}
+#num6 {
+margin-left: 247px;
+}
+#bola8 {
+margin-left: 302px;
+}
+#num8 {
+margin-left: 334px;
+}
+#footer {
+margin-left: -169px;
+width: 888px;
+height: 247px;
+background-size: 347%;
+}
+#social {
+margin-left: 230px;
+width: 196px;
+margin-top: 160px;
+}
+#english {
+margin-left: 322px;
+width: 40px;
+height: 40px;
+background-size: 100%;
+}
+#english {
+margin-left: 322px;
+margin-top: 29px;
+}
+#espanol {
+margin-left: 322px;
+margin-top: 70px;
+}
+#html5 {
+margin-top: 40px;
+}
+#css3 {
+margin-top: 112px;
+}
+#jquery {
+margin-top: 189px;
+}
+#cont-about {
+margin-top: 172px;
+}
+#about-tittle {
+margin-left: -4px;
+}
+#texto-about {
+width: 113%;
+margin-left: -12px;
+font-size: 10pt;
+}
+#empresas {
+width: 130%;
+margin-left: -47px;
+height: 64px;
+}
+#yell {
+margin-left: 76px;
+height: 29px;
+width: 80px;
+}
+#adworks {
+margin-left: 26px;
+height: 29px;
+width: 187px;
+}
+#marketing-solutions {
+margin-left: 3px;
+margin-top: 8px;
+height: 29px;
+width: 178px;
+}
+#aya {
+margin-left: 12px;
+margin-top: 8px;
+height: 29px;
+width: 61px;
+}
+#pages {
+margin-left: 13px;
+margin-top: 3px;
+height: 32px;
+width: 167px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 322px){
+
+body {
+   overflow-x: hidden;
+}
+#general {
+width: 195px  !important;
+height: 922px;
+
+}
+#logo {
+width: 216px;
+margin-left: -9px;
+}
+#cg {
+margin-left: 0px;
+}
+#menuprincipal {
+margin-left: -34px;
+margin-top: 178px;
+width: 229px;
+}
+
+#menuprincipal span{
+	z-index: 111;
+}
+#html5 {
+width: 79px;
+height: 58px;
+margin-top: 38px;
+margin-left: -42px;
+}
+#css3 {
+width: 79px;
+height: 58px;
+margin-top:108px;
+margin-left: -42px;
+}
+#jquery {
+width: 79px;
+height: 58px;
+margin-top: 173px;
+margin-left: -42px;
+}
+.wrapper {
+margin-top: 220px;
+height: 79px;
+width: 212px;
+margin-left: -60px;
+}
+.sb-slider {
+height: 97px;
+}
+#timeline {
+width: 224px;
+margin-left: -21px;
+}
+#line-top {
+width: 262px;
+}
+#line {
+width: 262px;
+height: 12px;
+}
+#line-bottom {
+width: 262px;
+}
+#bola3 {
+margin-left: 45px;
+}
+#num3 {
+margin-left: 74px;
+}
+#bola5 {
+margin-left: 112px;
+}
+#num5 {
+margin-left: 140px;
+}
+#bola7 {
+margin-left: 179px;
+}
+#num7 {
+margin-left: 206px;
+}
+#bola2 {
+margin-left: 6px;
+}
+#num2 {
+margin-left: 39px;
+}
+#bola4 {
+margin-left: 76px;
+}
+#num4 {
+margin-left: 107px;
+}
+#bola6 {
+margin-left: 144px;
+}
+#num6 {
+margin-left: 176px;
+}
+#bola8 {
+margin-left: 209px;
+}
+#num8 {
+margin-left: 239px;
+}
+aside {
+margin-bottom: 134px;
+width: 253px;
+margin-left: -32px;
+}
+#blue
+{
+	margin-left: 180px;
+}
+#datos {
+padding-left: 191px;
+margin-top: 6px;
+}
+#form-submit {
+margin-left: -358px;
+padding: 3px;
+margin-top: 122px;
+width: 80px;
+}
+#form-message {
+margin-left: -251px;
+margin-top: 69px;
+height: 75px;
+}
+#form-name {
+margin-left: -377px;
+margin-top: 68px;
+}
+#form-mail {
+margin-left: -378px;
+width: 117px;
+margin-top: 94px;
+}
+#social {
+margin-top: 160px;
+margin-left: 170px;
+}
+#english {
+margin-left: 175px;
+}
+#espanol {
+margin-left: 175px;
+}
+#m1{
+	position: absolute;
+	margin-left: -1px;
+	margin-top: 43px;
+}
+#m2{
+	position: absolute;
+	margin-left: 63px;
+	margin-top: 43px;
+}
+#m3{
+	position: absolute;
+	margin-left: 126px;
+	margin-top: 43px;
+}
+#m4{
+	position: absolute;
+	margin-left: 32px;
+	margin-top: 110px;
+}
+#m5{
+	position: absolute;
+	margin-left: 98px;
+	margin-top: 110px;
+}
+#cont-about {
+margin-top: 209px;
+}
+#about-tittle {
+margin-left: -11px;
+font-size: 33pt;
+width: 299px;
+}
+#me-photo {
+height: 307px;
+width: 103px;
+margin-top: 4px;
+margin-right: -38px;
+}
+#texto-about {
+width: 138%;
+margin-left: -33px;
+font-size: 9pt;
+}
+#empresas {
+width: 150%;
+margin-left: -47px;
+height: 79px;
+margin-top: 10px;
+}
+#yell {
+margin-left: 29px;
+height: 21px;
+width: 61px;
+}
+#adworks {
+margin-left: 27px;
+height: 21px;
+width: 142px;
+}
+#marketing-solutions {
+margin-left: 41px;
+margin-top: 8px;
+height: 21px;
+width: 129px;
+}
+#aya {
+margin-left: 30px;
+margin-top: 8px;
+height: 22px;
+width: 42px;
+}
+#pages {
+margin-left: 82px;
+margin-top: 3px;
+height: 21px;
+width: 113px;
+}
+
+}

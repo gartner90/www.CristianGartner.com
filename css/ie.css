@@ -1,0 +1,27 @@
+
+#general
+{
+
+	padding-bottom: 0px;
+	height: auto;
+}
+
+#menuprincipal .home span{
+	margin-top:66px;
+}
+
+#menuprincipal .about span{
+	margin-top:66px;
+}
+
+#menuprincipal .how span{
+	margin-top:66px;
+}
+
+#menuprincipal .portfolio span{
+	margin-top:66px;
+}
+
+#menuprincipal .contact span{
+	margin-top:66px;
+}
