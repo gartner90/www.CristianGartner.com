@@ -1,0 +1,397 @@
+<html>
+<html lang="en">
+<head>
+	<META NAME="Author" CONTENT="Cristian Gartner">
+    <meta name="description" content="Professional Web Design and Development, css3, html5, javascript, canvas, layout, php, phyton, ruby..." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico">    
+	<link href="../css/general.css" rel="stylesheet" type="text/css" />
+	<link href="../css/navegadores.css" rel="stylesheet" type="text/css" />
+	<link href="../css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="estilo-mario.css" rel="stylesheet" type="text/css">
+
+	<title>canvas - Cristian Gartner - Professional Web Design and Development</title>
+    <script type="text/javascript" src="../js/modernizr.custom.09206.js"></script>
+    <script language="JavaScript" src="../scripts/gen_validatorv31.js" type="text/javascript"></script>
+    
+    <script language="JavaScript">
+function muestra_oculta(id){
+if (document.getElementById){ //se obtiene el id
+var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+}
+}
+window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
+muestra_oculta('contenido_a_mostrar');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40332013-1', 'cristiangartner.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+    
+<!--[if IE]> <link href="../css/ie.css" rel="stylesheet" type="text/css"> <![endif]-->
+<!--[if lt IE 9]>
+<script src=”http://HTML5shim.googlecode.com/svn/trunk/HTML5.js”>
+</script>
+<![endif]-->
+			  
+</head>
+
+
+<body>
+	
+    <a href="http://www.w3.org/html/logo/" target="_blank"><div id="html5"></div></a>
+<a href="http://www.w3schools.com/css3/css3_intro.asp"target="_blank"><div id="css3"></div></a>
+<a href="http://jquery.com/"target="_blank"><div id="jquery"></div></a>
+        
+<div id="general">
+<ul class="tt-wrapper">
+    <li><a href="../index.html"><div id="english" class="tt-en"></div><span>English</span></a></li>
+    <li><a href="../es/index.html"><div id="espanol"></div><span>EspaNol</span></a></li>
+    </ul>
+	<header>
+		<div id="cg" ></div>
+        <div id="logo"></div>
+		<nav>
+		<ul id="menuprincipal">
+			<li id="m5" ><a href="../contact/index.html" class="contact"><img src="../images/menu-5.png" name="contact" width="59" height="58" ><span>Contact</span></a></li>
+            <li id="m4"><a href="../portfolio/index.html" class="portfolio"><img src="../images/menu-4.png" name="portfolio" width="59" height="58" ><span>Portfolio</span></a></li>
+            <li id="m3"><a href="../how-i-work/index.html" class="how"><img src="../images/menu-3.png" name="how" width="59" height="58" ><span>How I Work</span></a></li>
+            <li id="m2"><a href="../about-me/index.html" class="about"><img src="../images/menu-2.png" name="about" width="59" height="58" ><span>About Me</span></a></li>
+            <li id="m1"><a href="../index.html" class="home"><img src="../images/menu-1.png" name="home" width="59" height="58" ><span>Home</span></a></li>
+		</ul>
+		</nav>
+	</header>
+    <div id="contact-tittle">CSS3 Lab</div>  
+<div id="snes-general">
+ 
+ <div id="snes-televisor">
+ <div id="antena">
+ <div id="circulo1"></div>
+ <div id="circulo2"></div>
+ <div id="palo1"></div>
+ <div id="palo2"></div>
+ <div id="base-antena"></div>
+ </div>
+ <div id="tv1"></div>
+ <div id="tv2"></div>
+ <div id="perillas">
+ <a href="#" onClick="muestra_oculta('contenido_a_mostrar')" title=""><div id="perilla1">
+ <div id="perilla1-1"></div>
+ <div id="perilla1-2"></div>
+ <div id="perilla1-3"></div>
+ </div></a>
+ <div id="perilla2">
+ <div id="perilla1-1"></div>
+ <div id="perilla1-2"></div>
+ <div id="perilla1-3"></div>
+ </div>
+ <div id="rayitas1">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas2">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas3">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas4">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas5">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas6">
+ <div id="rayitas1-1"></div></div>
+ <div id="rayitas7">
+ <div id="rayitas1-1"></div></div>
+ </div>
+  <div id="pantalla-borde"></div>
+ <div id="patica-tv-1"></div>
+ <div id="patica-tv-2"></div>
+  
+ </div>
+ 
+ <div id="snes-consola">
+ 
+ <div id="tapaF1"></div>
+<div id="tapaF2"></div>
+<div id="tapaF3"></div>
+<div id="tapaF4"></div>
+<div id="tapaF5"></div>
+<div id="tapaF6"></div>
+<div id="tapaF7"></div>
+<div id="tapaF8"></div>
+<div id="tapaF9"></div>
+<div id="tapaF10"></div>
+<div id="tapaF11"></div>
+<div id="tapaF12"></div>
+<div id="tapaF13"></div>
+ 
+<div id="tapa1"></div>
+<div id="tapa2"></div>
+<div id="tapa3"></div>
+<div id="tapa4"></div>
+<div id="tapa5"></div>
+<div id="tapa6"></div>
+<div id="tapa7"></div>
+<div id="tapa9"></div>
+<div id="tapa10"></div>
+<div id="tapa11"></div>
+<div id="tapa12"></div>
+<div id="tapa13"></div>
+<div id="tapa14"></div>
+<div id="tapa15"></div>
+
+<div id="raya1"></div>
+<div id="raya2"></div>
+<div id="raya3"></div>
+<div id="raya4"></div>
+<div id="raya5"></div>
+<div id="raya6"></div>
+<div id="raya7"></div>
+<div id="raya8"></div>
+<div id="raya9"></div>
+<div id="raya10"></div>
+<div id="raya11"></div>
+<div id="raya12"></div>
+
+<div id="snes-logo-s">
+<div id="letra-sn">SUPER NINTENDO</div>
+<div id="fondo-sn"></div>
+<div id="letra-peque-sn">E N T R E T E I N M E N T - S Y S T E M</div>
+</div>
+
+<div id="snes-terminal-cable">
+<div id="terminal1"></div>
+<div id="terminal2"></div>
+<div id="terminal3"></div>
+<div id="terminal4"></div>
+<div id="terminal5"></div>
+<div id="terminal6"></div>
+<div id="terminal7"></div>
+<div id="terminal8"></div>
+<div id="letra-peque-sn"></div>
+</div>
+
+<div id="snes-conector">
+<div id="conector-negro"></div>
+<div id="conector-gris1"></div>
+<div id="conector-gris2"></div>
+<div id="conector-bolita1"></div>
+<div id="conector-bolita2"></div>
+<div id="conector-bolita3"></div>
+<div id="conector-bolita4"></div>
+<div id="conector-bolita5"></div>
+<div id="conector-bolita6"></div>
+<div id="conector-bolita7"></div>
+</div>
+
+<div id="logo-consola">
+<div id="logo-nintendo-base">
+<div id="letra-nintendo0">Nintendo</div>
+<div id="letra-nintendo">Nintendo</div>
+</div>
+</div>
+
+<div id="snes-power">
+<div id="morado1"></div>
+<div id="morado2"></div>
+<div id="morado3"></div>
+<div id="morado4"></div>
+<div id="morado5"></div>
+<div id="morado-sombra"></div>
+<div id="letra-power">POWER</div>
+</div>
+
+<div id="snes-reset">
+<div id="morado1"></div>
+<div id="morado2"></div>
+<div id="morado3"></div>
+<div id="morado4"></div>
+<div id="morado5"></div>
+<div id="morado-sombra"></div>
+<div id="letra-reset">RESET</div>
+</div>
+
+<div id="letra-eject">EJECT</div>
+
+</div>
+ 
+<div id="snes-control">
+<div id="cubridor-l"></div>
+<div id="cubridor-r"></div>
+<div id="circuloa"></div>
+<div id="circulob"></div>
+<div id="base1"></div>
+
+<div id="circuloc"></div>
+<div id="circulod"></div>
+<div id="base2"></div>
+
+<div id="circulo-flechas"></div>
+<div id="cruz-1a"></div>
+<div id="cruz-2a"></div>
+<div id="cruz-1b"></div>
+<div id="cruz-2b"></div>
+<div id="cruz-brillo1"></div>
+<div id="cruz-brillo2"></div>
+<div id="cruz-brillo3"></div>
+<div id="arriba0"></div>
+<div id="arriba1"></div>
+<div id="arriba"></div>
+<div id="derecha1"></div>
+<div id="derecha0"></div>
+<div id="derecha"></div>
+<div id="abajo0"></div>
+<div id="abajo1"></div>
+<div id="abajo"></div>
+<div id="izquierda0"></div>
+<div id="izquierda1"></div>
+<div id="izquierda"></div>
+<div id="cruz-circulito"></div>
+
+<div id="select"></div>
+<div id="select-palabra2">SELECT</div>
+<div id="select-palabra3">SELECT</div>
+<div id="select-palabra">SELECT</div>
+<div id="start"></div>
+<div id="start-palabra2">START</div>
+<div id="start-palabra3">START</div>
+<div id="start-palabra">START</div>
+
+<div id="circulo-botones"></div>
+<div id="base-yx"></div>
+<div id="base-ab"></div>
+<div id="letra-y">Y</div>
+<div id="letra-x">X</div>
+<div id="letra-a">A</div>
+<div id="letra-b">B</div>
+<div id="boton-y"></div>
+<div id="boton-x"></div>
+<div id="boton-a"></div>
+<div id="boton-b"></div>
+<div id="brillo-b"></div>
+<div id="brillo-a"></div>
+<div id="brillo-x"></div>
+<div id="brillo-y"></div>
+
+<div id="logo-nintendo-base">
+<div id="letra-nintendo0">Nintendo</div>
+<div id="letra-nintendo">Nintendo</div>
+</div>
+
+<div id="cable-control"></div>
+
+</div>
+ 
+ <div id="contenido_a_mostrar" style="display: block;">
+ 
+ <div id="nubes-grandes"></div>
+ <div id="nubes-grandes2"></div>
+ <div id="nubes-grandes3"></div>
+ <div id="nubes-grandes4"></div>
+ <div id="nubes-grandes5"></div>
+ <div id="nubes-grandes6"></div>
+ <div id="nubes-grandes7"></div>
+ <div id="nubes-grandes8"></div>
+ <div id="rocas1"></div>
+ <div id="rocas2"></div>
+  <div id="rocas3"></div>
+ <div id="rocas4"></div>
+ <div id="rocas5"></div>
+  
+ 
+  <div id="bube-b">
+<div id="nube-fondo"></div> 
+<div id="nube-ojo1"></div> 
+<div id="nube-ojo2"></div> 
+</div>
+<div id="bube-a">
+<div id="nube-fondo"></div> 
+<div id="nube-ojo1"></div> 
+<div id="nube-ojo2"></div> 
+</div>
+ 
+ <div id="tortuga-1"><div id="tortuga-a">
+ <div id="tortuga"></div>
+ </div></div>
+
+<div id="flechita"></div>
+
+<div id="cosita-cuadros"></div> 
+<div id="montana2"></div> 
+<div id="montana1"></div> 
+<div id="token2"></div> 
+<div id="token1"></div> 
+<div id="mario-salta"><div id="mario"></div></div>
+<div id="flechita-"></div>
+
+<div id="marcadores">
+  <div id="cuadro-azul1"></div>
+  <div id="cuadro-azul2"></div>
+  <div id="estrellaA"><div id="estrella"></div></div>
+  <div id="moneda1"></div>
+  <div id="moneda2"></div>
+ <div id="Mletra1">MARIO</div>
+ <div id="Mletra2">X</div>
+ <div id="Mletra3">6</div>
+ <div id="Mletra4">X</div>
+ <div id="Mletra5">18</div>
+ <div id="Mletra6">TIME</div>
+ <div id="Mletra7">252</div>
+ <div id="Mletra8">X</div>
+ <div id="Mletra9">22</div>
+ <div id="Mletra10">39130</div>
+ </div>
+ </div>
+ 
+</div>
+
+<footer>
+<div id="footer">
+<div id="datos">
+c@CristianGartner.com<br>
+P. 954-353-5284 - USA<br>
+P. 57-6-338-4542 - COL
+</div>
+<div id="formulario">
+<div = "form-footer">
+<form method="post" name="myemailform" action="../form-to-email.php">
+		<input id="form-name" type="text" name="name" placeholder="Name:">
+		<input id="form-mail" type="text" name="email"  placeholder="E-mail:">
+		<textarea id="form-message" name="message" placeholder="Message"></textarea>
+	</p>
+	<input id="form-submit" type="submit" name='submit' value="submit">
+</form></div>
+<script language="JavaScript">
+var frmvalidator  = new Validator("myemailform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+</div>
+<div id="social">
+
+  <a href="https://www.facebook.com/cristian.gartner" target="_blank"><img src="../images/facebook-1.png" border="0" alt=" " width="59" height="62" onMouseOver="this.src='../images/facebook-2.png';" onMouseOut="this.src='../images/facebook-1.png';" style="line-height: 1.3em;"></a>
+  <a href="https://twitter.com/CristianGartner" target="_blank"><img src="../images/twitter-1.png" border="0" alt=" " width="59" height="62" onMouseOver="this.src='../images/twitter-2.png';" onMouseOut="this.src='../images/twitter-1.png';" style="line-height: 1.3em;"></a>
+  <a href="https://plus.google.com/111864628322135611672/posts" target="_blank"><img src="../images/gplus-1.png" border="0" alt=" " width="59" height="62" onMouseOver="this.src='../images/gplus-2.png';" onMouseOut="this.src='../images/gplus-1.png';" style="line-height: 1.3em;"></a>
+
+</div>
+ 
+</footer></div> 
+</body>
+
+</html>
