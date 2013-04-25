@@ -22,6 +22,9 @@
 	margin-top:11px;
 }
 	
+.general-portfolio {
+height: 860px !important;
+}
 }
 
 
@@ -309,6 +312,59 @@ margin-top: 14px;
 margin-left: 50px;
 margin-top: 9px;
 }
+#github {
+width: 144px;
+height: 86px;
+margin-top: -64px;
+margin-left: 520px;
+}
+#cont-how {
+margin-top: 93px;
+}
+.main {
+width: 682px;
+height: 725px;
+margin-left: -20px;
+margin-top: 2px;
+}
+#how-tittle {
+margin-top: -83px;
+}
+.general-how{
+	height: 984px !important ;
+}
+#slideP{
+	 height:439px;
+}
+.pxs_container {
+width: 100% !important;
+height: 420px !important;
+margin-top: -62px !important;
+}
+
+.cufon-active {
+	height: 445px !important;
+}
+.cufon-ready {
+	height: 445px !important;
+}
+
+.pxs_container
+{
+	position: static !important;
+	height: 43px !important;
+}
+#contact-tittle {
+margin-top: 63px;
+}
+.form-name {
+width: 269px!important;
+}
+.form-mail {
+width: 269px!important;
+}
+
+
 
 }
 
@@ -508,9 +564,73 @@ margin-top: 14px;
 margin-left: 26px;
 margin-top: 9px;
 }
+#cont-how {
+margin-top: 167px;
+margin-left: 34px;
+height: 1145px;
+}
+.main {
+width: 322px;
+height: 1180px;
+margin-left: -20px;
+margin: 0 auto;
+}
+.css3-metro{
+height: 103px;
+}
+.general-how{
+	height: 1402px !important;
+}
+.view2 {
+height: 104px;
+}
+#how-tittle {
+margin-left: 63px;
+}
+#github {
+width: 120px;
+height: 71px;
+margin-top: -64px;
+margin-left: 344px;
+}
+#portfolio-tittle {
+margin-top: 87px;
+}
+.pxs_container {
+width: 200px !important;
+height: 43px !important;
+margin-top: -62px !important;
+}
+ul.pxs_slider li img {
+height: 246px !important;
+}
+.pxs_navigation span {
+margin-left: -35px !important;
+margin-right: -34px !important;
+}
+#img-tk {
+width: 275px;
+height: 263px;
+margin-top: 83px;
+background-size: 100%;
+margin-bottom: 0px;
+}
+#ms-tk {
+font-size: 29pt;
+}
+#contact-tittle {
+margin-top: 102px;
+}
+
+
+
+
 
 
 }
+
+
+
 
 
 
@@ -697,7 +817,41 @@ margin-top: 3px;
 height: 32px;
 width: 167px;
 }
-
+#how-tittle {
+margin-top: -3px;
+margin-left: -12px;
+}
+.container {
+margin-left: -27px;
+}
+#github {
+width: 95px;
+height: 57px;
+margin-top: -64px;
+margin-left: 259px;
+}
+.general-how {
+height: 1488px !important;
+}
+ul.pxs_slider li img {
+height: 176px !important;
+margin-top: 42px !important;
+}
+#portfolio-tittle {
+margin-top: 164px;
+}
+#img-tk {
+width: 220px;
+height: 210px;
+margin-top: 161px;
+}
+#ms-tk {
+font-size: 22pt;
+margin-bottom: 134px;
+}
+#contact-tittle {
+margin-top: 201px;
+}
 
 
 }
@@ -948,5 +1102,36 @@ margin-top: 3px;
 height: 21px;
 width: 113px;
 }
+#how-tittle {
+margin-top: -8px;
+margin-left: -49px;
+font-size: 32pt;
+width: 266px;
+}
+#cont-how {
+margin-top: 217px;
+}
+.container {
+margin-left: -96px;
+}
+#portfolio-tittle {
+margin-top: 205px;
+}
+#cont-portfolio {
+width: 307px;
+margin-left: -51px;
+} 
+#img-tk {
+width: 220px;
+height: 210px;
+margin-top: 212px;
+}
+ #contact-tittle {
+margin-top: 257px;
+}
+#cont-contact {
+margin-left: -54px;
+}
+
 
 }
